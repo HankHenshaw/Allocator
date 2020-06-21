@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(allocator VERSION 0.0.1$ENV{TRAVIS_BUILD_NUMBER})
+project(allocator VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 set(SOURCE main.cpp)
 set(HEADERS hard.h myallocator.h mylist.h)
